@@ -1,0 +1,25 @@
+{
+  "name": "how-to-practice-tdd",
+  "version": "1.0.0",
+  "description": "How to practice TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnuchitO/how-to-tdd.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "AnuchitO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnuchitO/how-to-tdd/issues"
+  },
+  "homepage": "https://github.com/AnuchitO/how-to-tdd#readme",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
