@@ -15,7 +15,7 @@ const fizzbuzz = (input) => {
     return "2"
   }
 
-  return "1"
+  return input.toString()
 }
 
 module.exports = {
