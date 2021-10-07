@@ -1,4 +1,8 @@
 const fizzbuzz = (input) => {
+  if (input === 15) {
+    return "FizzBuzz"
+  }
+
   if (input === 5 || input === 10) {
     return "Buzz"
   }
