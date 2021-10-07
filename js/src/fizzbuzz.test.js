@@ -80,4 +80,44 @@ describe("FizzBuzz", () => {
 
     expect(result).toBe("Buzz")
   })
+
+  it("should return '11' when input 11", () => {
+    const input = 11
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("11")
+  })
+
+  it("should return '12' when input 12", () => {
+    const input = 12
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("Fizz")
+  })
+
+  it("should return '13' when input 13", () => {
+    const input = 13
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("13")
+  })
+
+  it("should return '13' when input 13", () => {
+    const input = 13
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("13")
+  })
+
+  it("should return '14' when input 14", () => {
+    const input = 14
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("14")
+  })
 })
