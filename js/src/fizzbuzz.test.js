@@ -1,4 +1,4 @@
-
+const { fizzbuzz } = require("./fizzbuzz")
 
 describe("FizzBuzz", () => {
   it("should return '1' when input 1", () => {
