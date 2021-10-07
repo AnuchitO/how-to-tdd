@@ -24,4 +24,12 @@ describe("FizzBuzz", () => {
 
     expect(result).toBe("Fizz")
   })
+
+  it("should return '4' when input 4", () => {
+    const input = 4
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("4")
+  })
 })
