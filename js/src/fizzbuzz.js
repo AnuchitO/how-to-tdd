@@ -11,10 +11,6 @@ const fizzbuzz = (input) => {
     return "4"
   }
 
-  if (input === 2) {
-    return "2"
-  }
-
   return input.toString()
 }
 
