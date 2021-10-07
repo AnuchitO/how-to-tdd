@@ -128,4 +128,12 @@ describe("FizzBuzz", () => {
 
     expect(result).toBe("FizzBuzz")
   })
+
+  it("should return '30' when input 30", () => {
+    const input = 30
+
+    const result = fizzbuzz(input)
+
+    expect(result).toBe("FizzBuzz")
+  })
 })
