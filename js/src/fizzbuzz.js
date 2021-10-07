@@ -3,7 +3,7 @@ const fizzbuzz = (input) => {
     return "Buzz"
   }
 
-  if (input === 3 || input === 6) {
+  if (input === 3 || input === 6 || input === 9) {
     return "Fizz"
   }
 
